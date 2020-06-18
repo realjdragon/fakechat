@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "29cae058e539bdae587a1289ce29f760",
+    "revision": "076487abfec0f1451fc327cf93545c3f",
     "url": "/fakechat/index.html"
   },
   {
-    "revision": "551b968ad093b49cf33e",
-    "url": "/fakechat/static/css/main.9578e8ca.chunk.css"
+    "revision": "331d263750cbb10cd0af",
+    "url": "/fakechat/static/css/main.e4be25ed.chunk.css"
   },
   {
     "revision": "4fa822df1ca1bfeab3a1",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fakechat/static/js/2.2cceb59d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "551b968ad093b49cf33e",
+    "revision": "331d263750cbb10cd0af",
     "url": "/fakechat/static/js/main.ed852db9.chunk.js"
   },
   {
