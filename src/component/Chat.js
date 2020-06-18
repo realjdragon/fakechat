@@ -4,7 +4,7 @@ import classnames from 'classnames';
 
 const Chat = ( {who} ) => {
   return (
-    <div className={classnames('Chat', who === 'me' ? 'right' : 'left')}>
+    <div className={classnames('Chat', who === 0 ? 'right' : 'left')}>
       <div className="bubble">
         안녕!
       </div>

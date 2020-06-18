@@ -2,21 +2,12 @@ import React from 'react';
 import Chat from './Chat';
 import './ChatWindow.scss';
 
-const ChatWindow = () => {
+const ChatWindow = ({ messages }) => {
+  const chatList = messages.map(message => <Chat who={message.sender} key={message.key} />);
+
   return (
     <div className="ChatWindow">
-      <Chat who="you" />
-      <Chat who="me" />
-      <Chat who="me" />
-      <Chat who="you" />
-      <Chat who="you" />
-      <Chat who="me" />
-      <Chat who="me" />
-      <Chat who="me" />
-      <Chat who="me" />
-      <Chat who="me" />
-      <Chat who="me" />
-      <Chat who="me" />
+      {chatList}
     </div>
   );
 };
