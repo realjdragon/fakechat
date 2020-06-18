@@ -2,14 +2,15 @@ import React from 'react';
 import './Chat.scss';
 import classnames from 'classnames';
 
-const Chat = ( {who} ) => {
+const Chat = ( { sender, message } ) => {
+
   return (
-    <div className={classnames('Chat', who === 0 ? 'right' : 'left')}>
+    <div className={classnames('Chat', sender === 0 ? 'right' : 'left')}>
       <div className="bubble">
-        안녕!
+        { message }
       </div>
     </div>
   );
 };
 
-export default Chat;
+export default React.memo(Chat);

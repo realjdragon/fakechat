@@ -17,11 +17,16 @@
       display: inline-block;
       margin: 0 10px;
     }
+    form {
+      display: flex;
+      flex: 1;
+    }
     input {
       flex: 1;
       border-radius: 20px;
       border: 1px solid  rgb(198, 198, 200);
       caret-color: rgba(49, 80, 250, 0.493);
+      padding-left: 10px;
     }
     button {
       margin: 0 7px;

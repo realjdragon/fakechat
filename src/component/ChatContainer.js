@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useCallback } from 'react';
 import ChatWindow from './ChatWindow';
 import ChatInput from './ChatInput';
 import HeaderProfile from './HeaderProfile';
@@ -18,11 +18,27 @@ const ChatContainer = () => {
 
   const [messages, setMessages] = useState(createDummyMessage());
 
+  const nextId = useRef(18);
+
+  const onInsert = useCallback(
+    (message, sender) => {
+      if (message.trim() === '') return;
+      const newMessage = {
+        id: nextId.current,
+        sender,
+        message
+      };
+      setMessages(messages => [...messages, newMessage]);
+      nextId.current += 1;
+    },
+    [],
+  );
+
   return (
     <div>
       <HeaderProfile />
       <ChatWindow messages={messages}/>
-      <ChatInput />
+      <ChatInput onInsert={onInsert}/>
     </div>
   );
 };
