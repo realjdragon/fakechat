@@ -13,7 +13,10 @@
   }
   .profileName {
     font-size: .85rem;
-    span {
+    .typedName {
+      display: inline-block;
+    }
+    .arrow {
       color: rgb(168, 170, 172);
     }
   }
