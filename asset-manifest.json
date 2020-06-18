@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fakechat/static/css/main.6c38a7de.chunk.css",
+    "main.css": "/fakechat/static/css/main.f058c0ab.chunk.css",
     "main.js": "/fakechat/static/js/main.ed852db9.chunk.js",
     "main.js.map": "/fakechat/static/js/main.ed852db9.chunk.js.map",
     "runtime-main.js": "/fakechat/static/js/runtime-main.02ddb5ea.js",
@@ -8,16 +8,16 @@
     "static/js/2.2cceb59d.chunk.js": "/fakechat/static/js/2.2cceb59d.chunk.js",
     "static/js/2.2cceb59d.chunk.js.map": "/fakechat/static/js/2.2cceb59d.chunk.js.map",
     "index.html": "/fakechat/index.html",
-    "precache-manifest.eb180c5016b86503e16933d168b596cc.js": "/fakechat/precache-manifest.eb180c5016b86503e16933d168b596cc.js",
+    "precache-manifest.be1a4bdaff166db9a0a7175fa94feade.js": "/fakechat/precache-manifest.be1a4bdaff166db9a0a7175fa94feade.js",
     "service-worker.js": "/fakechat/service-worker.js",
-    "static/css/main.6c38a7de.chunk.css.map": "/fakechat/static/css/main.6c38a7de.chunk.css.map",
+    "static/css/main.f058c0ab.chunk.css.map": "/fakechat/static/css/main.f058c0ab.chunk.css.map",
     "static/js/2.2cceb59d.chunk.js.LICENSE.txt": "/fakechat/static/js/2.2cceb59d.chunk.js.LICENSE.txt",
     "static/media/profile.jpg": "/fakechat/static/media/profile.f85df2f1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.02ddb5ea.js",
     "static/js/2.2cceb59d.chunk.js",
-    "static/css/main.6c38a7de.chunk.css",
+    "static/css/main.f058c0ab.chunk.css",
     "static/js/main.ed852db9.chunk.js"
   ]
 }
