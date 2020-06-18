@@ -1,7 +1,6 @@
 .ChatWindow {
   background-color: white;
   position: relative;
-  top: 103px;
   // 디바이스 전체 높이에서 헤더와 푸터를 뺀 값..
   // 컴포넌트가 이렇게 다른 컴포넌트에 종속되는게 괜찮은건가?
   // height: calc(100vh - 186px);
