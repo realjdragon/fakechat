@@ -3,6 +3,9 @@
   font-size: 0.95rem;
   font-weight: 200;
   text-align: left;
+  &:hover {
+    background-color: darkkhaki;
+  }
 
   &.right {
     justify-content: flex-end;
