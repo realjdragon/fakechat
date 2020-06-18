@@ -1,0 +1,20 @@
+.HeaderProfile {
+  background-color: rgb(241, 241, 241);
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 3px solid rgb(236, 236, 236);
+  .profileImage {
+    img {
+      width: 50px;
+      border-radius: 50%;
+    }
+  }
+  .profileName {
+    font-size: .85rem;
+    span {
+      color: rgb(168, 170, 172);
+    }
+  }
+}

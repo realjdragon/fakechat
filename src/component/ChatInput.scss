@@ -1,0 +1,32 @@
+.ChatInput {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  input, button {
+    height: 30px;
+  }
+
+  .input-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    span {
+      color: rgba(0, 0, 0, 0.7);
+      display: inline-block;
+      margin: 0 10px;
+    }
+    input {
+      flex: 1;
+      border-radius: 20px;
+      border: 1px solid  rgb(198, 198, 200);
+      caret-color: rgba(49, 80, 250, 0.493);
+    }
+    button {
+      margin: 0 7px;
+      border: none;
+      border-radius: 4px;;
+    }
+  }
+}
