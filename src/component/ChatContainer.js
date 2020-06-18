@@ -6,13 +6,13 @@ import HeaderProfile from './HeaderProfile';
 const ChatContainer = () => {
   const createDummyMessage = () => {
     const array = [];
-    for (let i = 0; i < 18; i++) {
-      array.push({
-        id: i,
-        sender: i%3,
-        message: 'hi guys'
-      });
-    }
+    // for (let i = 0; i < 18; i++) {
+    //   array.push({
+    //     id: i,
+    //     sender: i%3,
+    //     message: 'hi guys'
+    //   });
+    // }
     return array;
   };
 

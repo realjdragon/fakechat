@@ -6,7 +6,7 @@ const Chat = ( { sender, message } ) => {
 
   return (
     <div className={classnames('Chat', sender === 0 ? 'right' : 'left')}>
-      <div className="bubble">
+      <div className="bubble" contenteditable="true">
         { message }
       </div>
     </div>
