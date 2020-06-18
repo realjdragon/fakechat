@@ -1,6 +1,11 @@
 .HeaderProfile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
   background-color: rgb(241, 241, 241);
   height: 100px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;

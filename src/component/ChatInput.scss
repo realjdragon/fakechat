@@ -1,9 +1,9 @@
 .ChatInput {
   background-color: white;
   position: relative;
-  // bottom: 0;
-  width: 100%;
+  top: 103px;
   height: 85px;
+  z-index: 1005;
   input, button {
     height: 30px;
   }

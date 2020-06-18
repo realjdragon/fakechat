@@ -2,6 +2,7 @@ import React, { useState, useRef, useCallback } from 'react';
 import ChatWindow from './ChatWindow';
 import ChatInput from './ChatInput';
 import HeaderProfile from './HeaderProfile';
+import './ChatContainer.scss';
 
 const ChatContainer = () => {
   const createDummyMessage = () => {
@@ -35,7 +36,7 @@ const ChatContainer = () => {
   );
 
   return (
-    <div>
+    <div className="ChatContainer">
       <HeaderProfile />
       <ChatWindow messages={messages}/>
       <ChatInput onInsert={onInsert}/>
